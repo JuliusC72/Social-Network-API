@@ -7,6 +7,10 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.get('/', (req, res) => {
+    res.json({ message: 'Welcome to the Social Network API' });
+  });
+
 // Use routes when created
 app.use(require('./routes'));
 
@@ -20,7 +24,3 @@ mongoose.connect('mongodb://localhost:27017/social-network-api', {
 
 // Start server
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-
-app.get('/test', (req, res) => {
-    res.json({ message: 'API is working' });
-  });
