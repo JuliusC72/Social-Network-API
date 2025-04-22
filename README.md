@@ -34,34 +34,34 @@ Julius Chi, CoPilot, Claude AI
 
 ## Tests
 
-Base URL
+###Base URL
 
 GET: http://localhost:3001/
 
-User Routes
+###User Routes
 
 GET all users: http://localhost:3001/api/users
-POST create user: http://localhost:3001/api/users (with JSON body)
+POST create user: http://localhost:3001/api/users
 GET user by ID: http://localhost:3001/api/users/[user-id]
-PUT update user: http://localhost:3001/api/users/[user-id] (with JSON body)
+PUT update user: http://localhost:3001/api/users/[user-id]
 DELETE user: http://localhost:3001/api/users/[user-id]
 
-Friend Routes
+###Friend Routes
 
 POST add friend: http://localhost:3001/api/users/[user-id]/friends/[friend-id]
 DELETE remove friend: http://localhost:3001/api/users/[user-id]/friends/[friend-id]
 
-Thought Routes
+###Thought Routes
 
 GET all thoughts: http://localhost:3001/api/thoughts
-POST create thought: http://localhost:3001/api/thoughts (with JSON body)
+POST create thought: http://localhost:3001/api/thoughts
 GET thought by ID: http://localhost:3001/api/thoughts/[thought-id]
-PUT update thought: http://localhost:3001/api/thoughts/[thought-id] (with JSON body)
+PUT update thought: http://localhost:3001/api/thoughts/[thought-id]
 DELETE thought: http://localhost:3001/api/thoughts/[thought-id]
 
-Reaction Routes
+###Reaction Routes
 
-POST add reaction: http://localhost:3001/api/thoughts/[thought-id]/reactions (with JSON body)
+POST add reaction: http://localhost:3001/api/thoughts/[thought-id]/reactions
 DELETE remove reaction: http://localhost:3001/api/thoughts/[thought-id]/reactions/[reaction-id]
 
 ## Questions
