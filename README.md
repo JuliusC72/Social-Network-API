@@ -34,6 +34,8 @@ Julius Chi, CoPilot, Claude AI
 
 ## Tests
 
+[Video Demo](https://drive.google.com/file/d/1dXLbCE0UYVa9Ji4IHcl7kcxcBlkegSC_/view?usp=drive_link)
+
 ###Base URL
 
 GET: http://localhost:3001/
